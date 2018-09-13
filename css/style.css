@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 body, html{
@@ -11,6 +12,7 @@ body, html{
 	border-top:5px;
 	border-top-color: black;
 	padding-top: 0%;
+	overflow-x: hidden;
 }
 
 .ria{
@@ -48,18 +50,19 @@ section{
 	margin:0 2%;
 	width:60%;
 }
-.aside{
-	float:right;
-	margin: 10px;
+ .aside{
+	float: left;
+	margin:1% 2%x;
 	padding: 5px;
 	width:30%;
 	font-family: Verdana, geneva, sans-serif;
 	color: #000;
 	/*background-color: #01402c;*/
-	border:2px;
+	/*border:1px;
 	border-radius: 5px;
 	border-style: solid;
-	border-color: #000;
+	border-color: #000;*/
+	box-sizing: border-box;
 }
 .olah{
 	background-color: #01402c !important;
@@ -154,16 +157,16 @@ div.hero-text p{
 }
 #myimg{
 	width:25%;
-	float: right;
-	margin:5px 10px;
-	padding:5px 15px;
+	float: left;
+	margin:15px;
+	padding:0;
 }
 #about{
 	width:65%;
 	float:left;
 	font-size: 16px;
 	padding:5px 15px;
-	margin:5px 10px;
+	margin:0 2%;
 }
 #contact{
 	background-image: linear-gradient(0deg, rgba(34, 38, 36, 0.57), rgba(188, 255, 38, 0.7)),url(../img/cappuccino.png);
@@ -240,4 +243,9 @@ option{
 
 .foodful img{
 	border-radius:10px;
+}
+.row::after{
+	content: " ";
+	clear: both;
+	display: table;
 }
