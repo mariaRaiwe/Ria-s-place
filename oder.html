@@ -11,23 +11,16 @@
 </head>
 <body>
 		<!-- <div class="topnav"> -->
-			<nav class="navbar navbar-inverse  ria" ">
-				
-
+		<nav class="navbar navbar-inverse ria">
 				<div class="container-fluid">
-					<div class="navbar-header role="navigation">
-						<!-- <div id="menuToggle">
-							<input type="checkbox">
-							<span></span>
-							<span></span>
-							<span></span> -->
-							<a class="navbar-brand" href="index.html"> <img src="img/chef.jpg" width="20" height="30">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"> <img src="img/chef.jpg" width="20" height="30">
 						<!-- <small>Mariola's Restaurant</small> --> </a>
 						<!-- <a class="navbar-brand" href="#"> WebsiteName</a> actual sample -->
-						</div>
+
 
 					</div>
-					<ul class="nav navbar-nav " id="menu">
+					<ul class="nav navbar-nav ">
 						<li class="active"><a href="index.html"> Home</a></li>
 						<li class="dropdown menu">
 							<a class="dropdown-toggle" data-toggle= "dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Menu <span class="caret"></span></a>
@@ -46,114 +39,76 @@
 							</li>
 						<li class="active"><a href="about.html">About</a></li>
 						<li class="active"><a href="contact.html"> Contact us</a></li>
-						<li class="active"><a href="signup.html.html"> Recipes</a></li>
+						<li class="active"><a href="recipe.html"> Recipes</a></li>
 
 						
 						
 					</ul>
-						<span id="sign">
+					<span id="sign">
 						<a href="signup.html"> <button class="btn btn-success" type="submit">Sign up</button></a>
 						</span>
 						<br><br>
 					<small id="smallt">Sign-up for free healthy recipes!</small>
+					
 				</div>
 				
-				</div>	
-			</nav>
+		</nav>
 		<!-- </div> --> <br><br>
-			<div class="container-fluid"  >
-					<div class="jumbotron" id="food" height:100px;>
-					</div>
-
-			</div>
-
-		<div class="container">
-				
-			<div class="col-xs-6 col-xs-offset-3">
-				<form class="form-horizontal">
-					<hr>
-			 			<div class="form-group">
-			   			<label for="namefield" class="col-xs-2"> First Name</label>
-			   			 <div class="col-xs-10">
-						      <input type="text" class="form-control" placeholder="First name" required>
-						 </div>  	
-				    	</div>
-					    <div class="form-group">
-					      <label for="namefield" class="col-xs-2">Last name</label>
-					       <div class="col-xs-10">
-					     	 <input class="form-control" type="text"  placeholder="Last name"  required>
-					      </div>
-					      <!-- <div class="valid-feedback">
-					        Looks good!
-					      </div> -->
-					    </div>
-					    <div class="form-group" >
-
-					      <label for="namefield" class="col-xs-2">Username</label>
-					       <div class="col-xs-10">
-					     	 <input class="form-control" type="text"  placeholder="@mariola"  required>
-					      
-					      	<div class="valid-feedback">
-					        	Choose a preffered username.
-					     	 </div> 
-					      </div>
-					    </div>
-
-					    <div class="form-group">
-							<label for="namefield" class="col-xs-2">City</label>
-					      	<div class="col-xs-10">
-					      		<input class="form-control" type="text" class="form-control"  placeholder="City" required>
-					      		<div>
-					        		Please provide a valid city.
-					      		</div>
-					    	</div>
-					    </div>
-					    	<br>
-					    <div class="form-group">
-					     	<label for="namefield" class="col-xs-2">State</label>
-					      	<div class="col-xs-10">
-					      		<input class="form-control" type="text" class="form-control"  placeholder="state" required>
-					      		<div>
-					       		 	Please provide a valid state of residence.
-					     		</div>
-					     	</div>
-					    </div>
-					    <br>
-					    <div class="form-group">
-					    	<label for="namefield" class="col-xs-2">Zip</label>
-					      	<div class="col-xs-10">
-					      		<input class="form-control" type="text" placeholder="Zip" required>
-					      		<div>
-					      			put state code.
-					      		</div>
-					      	</div>
-					    </div>
-					<div class="form-check">
-								    <div class="col-xs-10">	
-								    	<label class="form-check-label" for="invalidCheck"> Agree to terms and conditions</label>
-								    	<div class="col-xs-2">
-									      	<input class="form-check-input " type="checkbox" value="" required>
-									    </div>
-									  <!-- <div class="invalid-feedback">
-								       	check box to agree to the terms of use.
-								        </div> -->
-								    </div>
-							  </div>
-				<!-- </div> -->
-							  <hr>
-						<div class="col-xs-6 col-xs-offset-2">
-							<a href="recipe.html">
-							  	<button class="btn btn-success" type="submit">Submit</button>
-							</a>
-						</div>
-				
-				</form>
+		<div class="container-fluid"  >
+			<div class="jumbotron" id="food" height:100px;>
 			</div>
 		</div>
+		<br>
+		<div class="container">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="Namefield" class="col-xs-2"> Name
+							<div class="col-xs-10">
+								<input type="text" name="Name" class="form-action" id="Namefield" required>
+							</div>
+						</label>
+						
+					</div>
+					<div class="form-group">
+						<label for="Namefield" class="col-xs-2">Place
+							<div class="col-xs-10">
+								<input type="text" name="Place" class="form-action" id="Namefield" width="550" height="" placeholder="Delivery location" required>
+							</div>
+						</label>
+						
+					</div>
+					<div class="form-group">
+						<label for="Namefield" class="col-xs-2"> Name
+							<div class="col-xs-10">
+								<select class="form-action" >
+										<option value="lekki"> Lekki</option>
+										<option value="Jakande">Jakande</option>
+										<option value="oba Onirhu">Oba Onirhu</option>
+										<option value="victoria island"> Victoria Island</option>
+										<option value="ikoyi">Ikoyi</option>
+										<option value="oworonshoki">Onworonshoki</option>
+										<option value="gbagada">Gbagada</option>
+										<option value="anthony">Anthony</option>
+										<option value="ikeja">Ikeja</option>
+										<option value="Surulere">Surulere</option>
+										</select>
+							</div>
+						</label>
+						
+					</div>
+					
+				</form>
+				
+			</div>
+			
+		</div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<!-- Footer -->
-	<footer class="page-footer font-small teal-dark pt-4 fixed-bottom olah">
+
+
+
+
+<footer class="page-footer font-small teal-dark pt-4 fixed-bottom olah">
 
 	    <!-- Footer Links 
 	    i added a class named olah -->
@@ -332,7 +287,9 @@
 
 	
 
-		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+
 </body>
 </html>

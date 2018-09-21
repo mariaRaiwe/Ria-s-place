@@ -41,8 +41,6 @@
 						<li class="active"><a href="contact.html"> Contact us</a></li>
 						<li class="active"><a href="recipe.html"> Recipes</a></li>
 
-					
-						
 					</ul>
 					<span id="sign">
 						<a href="signup.html"> <button class="btn btn-success" type="submit">Sign up</button></a>
@@ -59,25 +57,32 @@
 					</div>
 
 			</div>
-			<div class="container" id="register">
 			<hr>
-				<div class="maria" id="lucas">
-					<form action="#" method="#">
-
+			<div class="container" >
+				<div class="col-xs-6 col-xs-offset-3">
+			
+				<!-- <div class="maria" id="lucas"> -->
+					<form class="form-horizontal">
+					
 							<div class="form-group">
-								<label>Name:
-									<input id="input" type="text" name="Name" placeholder="write name">
-								</label>
-							</div> <br>
+								<label for="namefield" class="col-xs-2">Name </label>
+								<div class="col-xs-10 ">
+									<input class="form-control" type="text" id="namefield" width="70%" placeholder="Name"  >
+								</div>
+								
+							</div>
 							<div class="form-group">
-								<label>Address:
-									<input type="text"  placeholder="Address" value="e.g Place" required>
-								</label>
-							</div><br>
+								<label for="namefield" class="col-xs-2 col-md-2 col-xm-2 col-lg-2">Address</label>
+									<div class="col-xs-10 ">
+										<input class="form-control" type="text"  id="namefield" value="Delivery Place" required>
+									</div>
+								
+							</div>
 							<div class="form-group">
-								<label>
-									Location:
-									<select>
+								<label for="selectfield" class="col-xs-2 ">
+									Location</label>
+									<div class="col-xs-10 ">
+										<select>
 										<option value="lekki"> Lekki</option>
 										<option value="Jakande">Jakande</option>
 										<option value="oba Onirhu">Oba Onirhu</option>
@@ -88,54 +93,65 @@
 										<option value="anthony">Anthony</option>
 										<option value="ikeja">Ikeja</option>
 										<option value="Surulere">Surulere</option>
-									</select>
-								</label>
-							</div><br>
-							<div class="form-group">
-								<label>
-									Make Order: <br>
-									<textarea id="msg" cols="50" rows="10" name="order"></textarea>
-								</label>
-							</div>
-							 <br>
-							<div class="form-group">
-								<label>
-									Mode of Payment:
-									<div class="row">
-									<div class="col-md-4">
-									<input id="radio" class="radio" type="radio" name="payment" value="cash" checked="cash"> Cash
+										</select>
 									</div>
-									<div class="col-md-4">
-									 <input class="radio" type="radio" name="payment" value="card" checked="card"> Card
-									</div>
-								</label>
-								</div>
+								
 							</div>
-							 <div class="form-group">
-								    <div class="form-check">
-								    	<span>
-								    		<label class="form-check-label" for="invalidCheck">
-									      		<input class="form-check-input " type="checkbox" value="" required>
-									      		 Agree to terms and conditions
-									       </label>
-								         </span>
-								      <div class="invalid-feedback">
+							<div class="form-group">
+								<label for="namefield" class="col-xs-2 ">
+									Make Order </label>
+									<div class="col-xs-10 ">
+										<textarea class="form-control" placeholder="include additional request if any" id="msg" size="300" name="order"></textarea>
+									</div>
+								
+							</div>
+							
+							<div class="form-group">
+								<label >Mode of Payment </label>
+									
+										<div class="row">
+											<label class="col-xs-2">Cash</label>
+											<div class="col-xs-10">
+												<input id="radio" class="radio" type="radio" name="payment" value="cash" checked="cash">
+											</div>
+											<label class="col-xs-2">card </label>
+											<div class="col-xs-10">
+												<input class="radio" type="radio" name="payment" value="card" checked="card">
+											</div>
+											
+										</div>
+									
+								
+							
+							</div>
+							 <div class="form-check">
+								    <div class="col-xs-10">	
+								    	<label class="form-check-label" for="invalidCheck"> Agree to terms and conditions</label>
+								    	<div class="col-xs-2">
+									      	<input class="form-check-input " type="checkbox" value="" required>
+									    </div>
+									  <!-- <div class="invalid-feedback">
 								       	check box to agree to the terms of use.
-								      </div>
+								        </div> -->
 								    </div>
 							  </div>
+				<!-- </div> -->
 							  <hr>
+						<div class="col-xs-6 col-xs-offset-2">
 							<a href="recipe.html">
 							  	<button class="btn btn-success" type="submit">Submit</button>
 							</a>
-							</div>
+						</div>
+					</div>
 							</fieldset>
 
 						</form>
+					</div>
+				</div>
 					</div><br><br>
 						
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 			<!-- Footer -->
 	<footer class="page-footer font-small teal-dark pt-4 fixed-bottom olah">
 
