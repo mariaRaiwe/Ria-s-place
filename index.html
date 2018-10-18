@@ -11,15 +11,24 @@
 </head>
 <body>
 		<!-- <div class="topnav"> -->
-			<nav class="navbar navbar-inverse ria">
+		<nav class="navbar navbar-inverse ria">
 				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#"> <img src="img/chef.jpg" width="20" height="30">
-						<!-- <small>Mariola's Restaurant</small> --> </a>
+					
+					<div class="navbar-header ria">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					   		<span class="sr-only">Toggle navigation</span>
+					   		<span class="icon-bar"></span>
+					   		<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+    					</button>
+    					<a class="navbar-brand" href="index.html"> <img src="img/chef.jpg" width="20" height="30"> </a>
+  					</div>
+						
+						<!-- <small>Mariola's Restaurant</small> --> 
 						<!-- <a class="navbar-brand" href="#"> WebsiteName</a> actual sample -->
 
 
-					</div>
+				<div class="collapse navbar-collapse ria" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav ">
 						<li class="active"><a href="index.html"> Home</a></li>
 						<li class="dropdown menu">
@@ -51,8 +60,9 @@
 					<small id="smallt">Sign-up for free healthy recipes!</small>
 					
 				</div>
+			</div>
 				
-			</nav>
+		</nav>
 		<!-- </div> --> <br><br>
 			<div class="container-fluid"  >
 					<div class="jumbotron" id="food" height:100px;>
@@ -64,21 +74,33 @@
 					<h1><strong><i>Ria's Place</i></strong></h1>
 				</div>
 				<!-- check this syntax again -->
-				<div class="row">
-					<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
-						<img src="img/about.jpg" width="100%" height="300" class="img">
-						<br>
-						<p><b>Foodful memories are created around the table. Make each gathering phenomenal with carefully crafted recipes and share foodie inspirations!</b></p>
+				<div class="row ">
+					<!-- <div class="col-xs-4 col-sm-4"> -->
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="img/about.jpg" width="100%" height="300" class="img-responsive img">
+							<div class="caption">
+								<p><b>Foodful memories are created around the table. Make each gathering phenomenal with carefully crafted recipes and share foodie inspirations!</b></p>
+							</div>
+							</div>
 					</div>
-					<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
-						<img src="img/dinner.jpg" width="100%" height="300" class="img">
-						<br>
-						<p><b>Cooking tasty meals goes beyound the taste, Presentation is key. A well presented dish, is irresistibly inviting. Dare to make irresistible meals? Make it <i>beyoutiful!</i></b></p>
+					<!-- <div class="col-xs-4 col-sm-4 "> --> 
+					<div class="col-md-4  "> 
+						<div class="thumbnail">
+							<img src="img/dinner.jpg" width="100%" height="300" class="img-responsive img">
+							<div class="caption">
+								<p><b>Cooking tasty meals goes beyound the taste, Presentation is key. A well presented dish, is irresistibly inviting. Dare to make irresistible meals? Make it <i>beyoutiful!</i></b></p>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
-						<img src="img/plantain.jpg" width="100%" height="300" class="img">
-						<br>
-						<p><b><q><i>Boli</i></q> is highly rich in fibre and antioxidants, a good source of complex carbs and most importantly, keeps you full and satisfied. Plus it contains just 0 gramms of fat!.</b></p>
+					<!-- <div class="col-xs-4 col-sm-4"> -->
+						<div class="col-md-4  ">
+						<div class="thumbnail">
+							<img src="img/plantain.jpg" width="100%" height="300" class="img-responsive img">
+							<div class="caption">
+								<p><b><q><i>Boli</i></q> is highly rich in fibre and antioxidants, a good source of complex carbs and most importantly, keeps you full and satisfied. Plus it contains just 0 gramms of fat!.</b></p>
+							</div>
+						</div>
 					</div>
 				</div>
 				
@@ -122,7 +144,7 @@
 					</div>
 			<div class="container-fluid row" >
 				<div class="row">
-					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					<div class="col-md-9">
 						<section>
 							<h1><b><i>Beautiful Recipe tips</i></b></h1>
 							<p>
@@ -171,7 +193,8 @@
 								</div>
 					
 						</section> 
-						
+					</div>
+					<div class="col-md-3">						
 						<aside  class="aside">
 							<div>
 								<h5><b><i>Foodie inspirations!</i></b></h5>
@@ -191,7 +214,7 @@
 				</div>
 			</div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 			<!-- Footer -->
 	<footer class="page-footer font-small teal-dark pt-4 fixed-bottom olah">
 

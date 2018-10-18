@@ -11,21 +11,30 @@
 </head>
 <body>
 		<!-- <div class="topnav"> -->
-			<nav class="navbar navbar-inverse  ria">
+			<nav class="navbar navbar-inverse ria">
 				<div class="container-fluid">
+					
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#"> <img src="img/chef.jpg" width="20" height="30">
-						<!-- <small>Mariola's Restaurant</small> --> </a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					   		<span class="sr-only">Toggle navigation</span>
+					   		<span class="icon-bar"></span>
+					   		<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+    					</button>
+    					<a class="navbar-brand" href="index.html"> <img src="img/chef.jpg" width="20" height="30"> </a>
+  					</div>
+						
+						<!-- <small>Mariola's Restaurant</small> --> 
 						<!-- <a class="navbar-brand" href="#"> WebsiteName</a> actual sample -->
 
 
-					</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav ">
 						<li class="active"><a href="index.html"> Home</a></li>
 						<li class="dropdown menu">
 							<a class="dropdown-toggle" data-toggle= "dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Menu <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-								<li><a href="monday.html"> Monday</a></li>
+									<li><a href="monday.html"> Monday</a></li>
 									<li role="separator" class="divider"></li>
 									<li> <a href="tuesday.html">Tuesday</a></li>
 									<li role="separator" class="divider"></li>
@@ -51,14 +60,15 @@
 					<small id="smallt">Sign-up for free healthy recipes!</small>
 					
 				</div>
+			</div>
 				
-			</nav>
+		</nav>
 		<!-- </div> --> <br><br>
 			<div class="container-fluid"  >
 					<div class="jumbotron" id="food" >
 					</div>
 			</div>
-			<br><br>
+			<br>
 			<div class="hero-image" id="image">
               <div class="hero-text" >
     
@@ -70,62 +80,88 @@
 	       			 <a href="signup.html" class="btn btn-success btn-rounded">Sign up!</a>
 	      
             	 </div>           
-        </div>
-		<br><br><br>
+       		</div>
+		<br>
 		<hr>
 			<div class="container">
+				<h3><b>Breakfast</b></h3>
 				<div class="row">
-					<h3><b>Breakfast</b></h3>
-					<div class=" col-md-4 col-xs-4" >
-						<img src="img/omlette2.jpg" alt="omlette" width=100%" height="300">
-						<p><strong> Omlette and bread toast. <br>Price: N1,500 
+					<div class=" col-md-4" >
+						<img src="img/omlette2.jpg" class="img-rounded" alt="omlette" width=100%" height="auto">
+						<div class="caption">
+							<p><strong> Omlette and bread toast. <br>Price: N1,500</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4" >
-						<img src="img/rice.png" alt="rice and stew" width="100%" height="300">
-						<p><strong> Rice and stew <br>Price: N2,500 
+					<div class="col-md-4" >
+						<img src="img/rice.png" class="img-rounded" alt="rice and stew" width="100%" height="auto">
+						<div class="caption">
+							<p><strong> Rice and stew <br>Price: N2,500 
+							</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4">
-						<img src="img/dodo.jpg" alt="fried egg and dodo" width="100%" height="300">
-						<p><strong>Fried egg with dodo <br>Price: N1,500 
+					<div class="col-md-4">
+						<img src="img/dodo.jpg" class="img-rounded" alt="fried egg and dodo" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Fried egg with dodo <br>Price: N1,500 
+							</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div> <br><br><br>
+			</div>
 			<hr>
 			<div class="container">
+				<h3><b>Lunch</b></h3>
 				<div class="row">
-					<h3><b>Lunch</b></h3>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/amala.jpg" alt="Amala" width="100%" height="300">
-						<p><strong>Amala and ewedu (or efo) <br>
-							Price:N2,000 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/amala.jpg" class="img-rounded" alt="Amala" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Amala and ewedu (or efo) <br>
+							Price:N2,000 </strong>
+							<br>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 						
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/eforiro.jpg" alt="efo riro" width="100%" height="300">
-						<p><strong>Efo riro with preffered swallow <br>
-							Price:N2,000 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/eforiro.jpg" class="img-rounded" alt="efo riro" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Efo riro with preffered swallow <br>
+							Price:N2,000 </strong>
+							<br>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 						
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/egusi.jpg" alt="Egusi soup" width="100%" height="300">
-						<p><strong>Egusi soup with preffered swallow <br>
-							Price:N2,000 <br>Add to cart</strong></p>
-						
+					<div class="col-md-3">
+						<img src="img/egusi.jpg" class="img-rounded" alt="Egusi soup" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Egusi soup with preffered swallow <br>
+							Price:N2,000 </strong>
+							<br>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/jollof.jpg" alt="jollof rice" width="100%" height="300">
-						<p><strong>Jollof<br>
-							Price:N1,800 <br>Add to cart</strong></p>
-						
+					<div class="col-md-3">
+						<img src="img/jollof.jpg" class="img-rounded" alt="jollof rice" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Jollof<br>
+							Price:N1,800 </strong>
+							<br>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
 
 					
@@ -134,28 +170,37 @@
 			</div>
 			<hr>
 			<div class="container">
+				<h3><b>Dinner</b></h3>
 				<div class="row">
-					<h3><b>Dinner</b></h3>
-					<div class=" col-md-4 col-xs-4" >
-						<img src="img/spag with chicken breast.jpg" alt="Hot Spaghetti" width=100%" height="300">
-						<p><strong> Spaghetti with Chicken breast. <br>Price: N3,000 
+					<div class=" col-md-4" >
+						<img src="img/spag with chicken breast.jpg" class="img-rounded" alt="Hot Spaghetti" width=100%" height="auto">
+						<div class="caption">
+							<p><strong> Spaghetti with Chicken breast. <br>Price: N3,000 
+							</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4" >
-						<img src="img/ofada rice.jpg" alt="ofada rice" width="100%" height="300">
-						<p><strong> Ofada rice and stew <br>Price: N2,500 
+					<div class="col-md-4" >
+						<img src="img/ofada rice.jpg" class="img-rounded" alt="ofada rice" width="100%" height="auto">
+						<div class="caption">
+							<p><strong> Ofada rice and stew <br>Price: N2,500 
+							</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4">
-						<img src="img/yam n pepper soup.jpg" alt="yam and perrper soup" width="100%" height="300">
-						<p><strong>Boiled yam in pepper soup<br>Price:N3,500 
+					<div class="col-md-4">
+						<img src="img/yam n pepper soup.jpg" class="img-rounded" alt="yam and perrper soup" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Boiled yam in pepper soup<br>Price:N3,500 
+							</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
 			</div>
 

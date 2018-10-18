@@ -13,13 +13,22 @@
 		<!-- <div class="topnav"> -->
 			<nav class="navbar navbar-inverse ria">
 				<div class="container-fluid">
+					
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#"> <img src="img/chef.jpg" width="20" height="30">
-						<!-- <small>Mariola's Restaurant</small> --> </a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					   		<span class="sr-only">Toggle navigation</span>
+					   		<span class="icon-bar"></span>
+					   		<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+    					</button>
+    					<a class="navbar-brand" href="index.html"> <img src="img/chef.jpg" width="20" height="30"> </a>
+  					</div>
+						
+						<!-- <small>Mariola's Restaurant</small> --> 
 						<!-- <a class="navbar-brand" href="#"> WebsiteName</a> actual sample -->
 
 
-					</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav ">
 						<li class="active"><a href="index.html"> Home</a></li>
 						<li class="dropdown menu">
@@ -33,7 +42,7 @@
 									<li role="separator" class="divider"></li>
 									<li> <a href="thursday.html"> Thursday </a></li>
 									<li role="separator" class="divider"></li>
-									<li> <a href="friday.html">Friday </a></li>
+									<li> <a href="friday.html"> Friday </a></li>
 						
 								</ul>
 							</li>
@@ -41,7 +50,7 @@
 						<li class="active"><a href="contact.html"> Contact us</a></li>
 						<li class="active"><a href="recipe.html"> Recipes</a></li>
 
-					
+						
 						
 					</ul>
 					<span id="sign">
@@ -51,83 +60,102 @@
 					<small id="smallt">Sign-up for free healthy recipes!</small>
 					
 				</div>
+			</div>
 				
-			</nav>
+		</nav>
 		<!-- </div> --> <br><br>
 			<div class="container-fluid"  >
 					<div class="jumbotron" id="food" height:100px;>
 					</div>
 
 			</div>
-		<br><br>
-		
-			<div class="hero-image" id="fruit">
-              <div class="hero-text" >
-    
-                    <h1> <strong>Friday Specials</strong></h1>
-                    <p>
-                        <i><b>Healthy eating habits prevents much more terminal ailments than you can imagine. <br>Take a look at the benefits of this natural recipe..fresh from the farm!</b></i>
-                    </p>
-                    <br>
-	       			 <a href="signup.html" class="btn btn-success btn-rounded">Sign up!</a>
-	      
-            	 </div>           
-        	</div>
+			<br>
+				<div class="hero-image" id="fruit">
+	              <div class="hero-text" >
+	    
+	                    <h1> <strong>Friday Specials</strong></h1>
+	                    <p>
+	                        <i><b>Healthy eating habits prevents much more terminal ailments than you can imagine. <br>Take a look at the benefits of this natural recipe..fresh from the farm!</b></i>
+	                    </p>
+	                    <br>
+		       			 <a href="signup.html" class="btn btn-success btn-rounded">Sign up!</a>
+		      
+	            	 </div>           
+	        	</div>
+        	
         
-		<br><br><br>
+		<br>
 		<hr>
 			<div class="container">
+				<h3><b>Breakfast</b></h3>
 				<div class="row">
-					<h3><b>Breakfast</b></h3>
-					<div class=" col-md-4 col-xs-4" >
-						<img src="img/bread.png" alt="Toast bread" width=100%" height="300">
-						<p><strong>Bread toast. <br>Price: N1,500 
+					<div class="col-md-4">
+						<img src="img/bread.png" alt="img responsive" class="img-rounded" width=100%" height="auto">
+						<div class="caption">
+							<p><strong>Bread toast. <br>Price: N1,500 </strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4" >
-						<img src="img/omlette2.jpg" alt=" Vegetable omlette" width="100%" height="300">
-						<p><strong>Vegetable omlete with dodo <br>Price: N1,750 
+					<div class="col-md-4" >
+						<img src="img/omlette2.jpg" class="img-rounded" alt=" Vegetable omlette" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Vegetable omlete with dodo <br>Price: N1,750 </strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-xs-4">
-						<img src="img/spaghetti.jpg" alt="Spaghetti" width="100%" height="300">
-						<p><strong>Spaghetti with chicken gravy source<br>Price: N1,500 
+					<div class="col-md-4">
+						<img src="img/spaghetti.jpg" class="img-rounded" alt="Spaghetti" width="100%" height="300">
+						<div class="caption">
+							<p><strong>Spaghetti with chicken gravy source<br>Price: N1,500 </strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div> <br><br><br>
+			</div>
 			<hr>
 			<div class="container foodful">
+				<h3><b>Lunch</b></h3>
 				<div class="row">
-					<h3><b>Lunch</b></h3>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/amala.jpg" alt="Amala" width="100%" height="300">
-						<p><strong>Amala special <br>
-							Price:N2,000 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/amala.jpg" alt="Amala" class="img-rounded" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Amala special <br>
+							Price:N2,000 </strong>
+							<br><button class="btn btn-default">Add to cart</button></p>
+						</div>
 						
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/porridge.jpg" alt="porridge yam" width="100%" height="300">
-						<p><strong>Efo riro with preffered swallow <br>
-							Price:N1,200 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/porridge.jpg" class="img-rounded" alt="porridge yam" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Efo riro with preffered swallow <br>
+							Price:N1,200</strong> <br>
+							<button class="btn btn-default">Add to cart</button></p>
+						</div>
 						
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/afang-soup.jpg" alt="Afang soup" width="100%" height="300">
-						<p><strong>Afang soup with preffered swallow <br>
-							Price:N2,000 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/afang-soup.jpg" class="img-rounded" alt="Afang soup" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Afang soup with preffered swallow <br>
+							Price:N2,000 </strong><br>
+						<button class="btn btn-default">Add to cart</button></p>
+						</div>
 						
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/fried rice.jpg" alt="jollof rice" width="100%" height="300">
-						<p><strong>Fried Rice with shrimps<br>
-							Price:N2,500 <br>Add to cart</strong></p>
+					<div class="col-md-3">
+						<img src="img/fried rice.jpg" class="img-rounded" alt="jollof rice" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Fried Rice with shrimps<br>
+							Price:N2,500</strong> <br>
+							<button class="btn btn-default">Add to cart</button></p>
+						</div>
 						
 					</div>
 
@@ -139,39 +167,47 @@
 			<div class="container">
 				<div class="row">
 					<h3><b>Dinner</b></h3>
-					<div class=" col-md-3 col-xs-3" >
-						<img src="img/grilled lamb.jpg" alt="grilled lamb" width=100%" height="300">
-						<p><strong> Grilled lamb and Sweet corn. <br>Price: N3,000 
+					<div class=" col-md-3">
+						<img src="img/grilled lamb.jpg" class="img-rounded" alt="grilled lamb" width=100%" height="auto">
+						<div class="caption">
+							<p><strong> Grilled lamb and Sweet corn. <br>Price: N3,000 </strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-3 col-xs-3" >
-						<img src="img/suya2.jpg" alt="Suya" width="100%" height="300">
-						<p><strong>Suya<br>Price: N2,000 
+					<div class="col-md-3" >
+						<img src="img/suya2.jpg" class="img-rounded" alt="Suya" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Suya<br>Price: N2,000</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class="col-md-3 col-xs-3">
-						<img src="img/vegee.jpg" alt="yam and perrper soup" width="100%" height="300">
-						<p><strong>Vegetable salad<br>Price:N750 
+					<div class="col-md-3">
+						<img src="img/vegee.jpg" alt="yam and perrper soup" width="100%" height="auto">
+						<div class="caption">
+							<p><strong>Vegetable salad<br>Price:N750</strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
-					<div class=" col-md-3 col-xs-3" >
-						<img src="img/sharwama.jpg" alt="sharwama" width=100%" height="300">
-						<p><strong> <i>Chilli</i> hot sharwama <br>Price: N3,000 
+					<div class=" col-md-3" >
+						<img src="img/sharwama.jpg" class="img-rounded" alt="sharwama" width=100%" height="auto">
+						<div class="caption">
+							<p><strong> <i>Chilli</i> hot sharwama <br>Price: N3,000 </strong>
 							<br>
-							Add to cart</strong>
-						</p>
+							<button class="btn btn-default">Add to cart</button>
+							</p>
+						</div>
 					</div>
 			</div>
 
 		<br><br>
 		 <a href="order.html" class="btn btn-success btn-rounded">Order Now!</a>
-		 <br><br><br><br>
+		 
 		 <br><br>
 	
 			<!-- Footer -->

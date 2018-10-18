@@ -11,19 +11,28 @@
 </head>
 <body>
 		<!-- <div class="topnav"> -->
-			<nav class="navbar navbar-inverse  ria">
+			<nav class="navbar navbar-inverse ria">
 				<div class="container-fluid">
+					
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#"> <img src="img/chef.jpg" width="20" height="30">
-						<!-- <small>Mariola's Restaurant</small> --> </a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					   		<span class="sr-only">Toggle navigation</span>
+					   		<span class="icon-bar"></span>
+					   		<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+    					</button>
+    					<a class="navbar-brand" href="index.html"> <img src="img/chef.jpg" width="20" height="30"> </a>
+  					</div>
+						
+						<!-- <small>Mariola's Restaurant</small> --> 
 						<!-- <a class="navbar-brand" href="#"> WebsiteName</a> actual sample -->
 
 
-					</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav ">
 						<li class="active"><a href="index.html"> Home</a></li>
 						<li class="dropdown menu">
-							<a class="dropdown-toggle" data-toggle= "dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="menu.html">Menu <span class="caret"></span></a>
+							<a class="dropdown-toggle" data-toggle= "dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Menu <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="monday.html"> Monday</a></li>
 									<li role="separator" class="divider"></li>
@@ -33,7 +42,7 @@
 									<li role="separator" class="divider"></li>
 									<li> <a href="thursday.html"> Thursday </a></li>
 									<li role="separator" class="divider"></li>
-									<li> <a href="friday.html"> friday </a></li>
+									<li> <a href="friday.html"> Friday </a></li>
 						
 								</ul>
 							</li>
@@ -41,14 +50,19 @@
 						<li class="active"><a href="contact.html"> Contact us</a></li>
 						<li class="active"><a href="recipe.html"> Recipes</a></li>
 
-						</li>
-					</ul>
 						
-				
+						
+					</ul>
+					<span id="sign">
+						<a href="signup.html"> <button class="btn btn-success" type="submit">Sign up</button></a>
+						</span>
+						<br><br>
+					<small id="smallt">Sign-up for free healthy recipes!</small>
 					
 				</div>
+			</div>
 				
-			</nav>
+		</nav>
 		<!-- </div> --> <br><br>
 			<div class="container-fluid"  >
 					<div class="jumbotron" id="food" height:100px;>
